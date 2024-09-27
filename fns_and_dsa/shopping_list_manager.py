@@ -17,7 +17,7 @@ def main():
             print(f"'{item}' has been added to the list.")
             pass
         elif choice == '2':
-            item = input("Enter the name of the item to remove: ").strip()
+            item = input("Enter the name of the item to remove: ")
             if item in shopping_list:
                 shopping_list.remove(item)
                 print(f"'{item}' has been removed from the list.")
